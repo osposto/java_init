@@ -1,0 +1,67 @@
+Ejercicios Trabajo Práctico 1 - Orlando Sposto - Comisión 153
+
+Ejercicio 1a:
+
+public class Ejercicio1{
+		public static void main(String[] args) {
+			int a=5, b=14;
+			while (a<=b) { 
+				System.out.println(a);
+				a++;
+			}; 
+		};
+	}
+
+Ejercicio 1b:
+
+	public class Ejercicio1b{
+		public static void main(String[] args) {
+			int a=5, b=14;
+			while (a<=b) {
+				if((a%2)==0) { 
+					System.out.println(a);
+				};
+				a++;
+			}; 
+		};
+	}
+
+Ejercicio 1c:
+
+	public class Ejercicio1c{
+		public static void main(String[] args) {
+			int a=5, b=14, c=0;
+			while (a<=b) {
+				if(c==0) {
+					if((a%2)==0) { 
+						System.out.println(a);
+					};
+				}else{
+					if((a%2)!=0) { 
+						System.out.println(a);
+					};
+				};
+				a++;
+			}; 
+		};
+	}
+
+Ejercicio 1d:
+
+	public class Ejercicio1d{
+		public static void main(String[] args) {
+			int a=5, b=14, c=0, i=0;
+			for (i=b; i>=a; i--) {
+				if(c==0) {
+					if((i%2)==0) { 
+						System.out.println(i);
+					};
+				}else{
+					if((i%2)!=0) { 
+						System.out.println(i);
+					};
+				};
+				
+			}; 
+		};
+	}
